@@ -1,0 +1,17 @@
+header{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg , blue 25%, gold 75%);
+    height: 150px;
+    text-align: center;
+    font-size: xx-large;
+    }
+
+    #vboy2{
+        float: right;
+        
+    }
+ #vboy1{
+    float: left;
+ }
+
