@@ -1,10 +1,19 @@
 /* This was a test for columns and I wasnt sure where to put comlumns in my main page */
 
-main{
+main {
     columns: 2;
     column-width: auto;
     column-gap: 35px;
     column-rule: 3px solid purple;
     font-size: xx-large;
     color: red;
+
+
+}
+
+#move ul {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+
 }
