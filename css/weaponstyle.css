@@ -1,0 +1,36 @@
+/*Nav menu*/
+
+#nav_menu ul {
+    list-style-type: none;
+    /* padding: 1em 0; */
+    text-align: center;
+    /* border: 2px solid black; */
+    font-size: 150%;
+    margin: 0 5% 0 5%;
+
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+
+}
+
+#nav_menu ul li a {
+    display: inline-block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+}
+
+#nav_menu a:link {
+    color: royalblue;
+}
+
+#nav_menu a:visited {
+    color: purple;
+}
+
+#nav_menu a:hover,
+a:focus {
+    font-style: none;
+}

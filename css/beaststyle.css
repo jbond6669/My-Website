@@ -1,6 +1,81 @@
+html{
+    background: grey;
+}
+
+/*Header style*/
+header{
+  background-color: maroon;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  height: 150px;
+  text-align: center;
+  font-size: x-large;
+}
+
+header h1{
+    text-align: center;
+    /* color: #ff0000; */
+    text-emphasis: bold;
+}
+
+/*Main styles*/
+main p{
+    flex-wrap: wrap;
+    padding: 0 8em 0 8em;
+}
+
+/*Nav menu*/
+
+#nav_menu ul {
+    list-style-type: none;
+    /* padding: 1em 0; */
+    text-align: center;
+    /* border: 2px solid black; */
+    font-size: 150%;
+    margin: 0 5% 0 5%;
+
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+
+}
+
+#nav_menu ul li a {
+    display: inline-block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+}
+
+#nav_menu a:link {
+    color: royalblue;
+}
+
+#nav_menu a:visited {
+    color: purple;
+}
+
+#nav_menu a:hover,
+a:focus {
+    font-style: none;
+}
+
+/*styles for footer*/
+footer p {
+    text-align: center;
+}
+
+footer a {
+    font-size: xx-large;
+    margin-left: 3em;
+}
+
+
+
 /* This was a test for columns and I wasnt sure where to put comlumns in my main page */
 
-main {
+/* main {
     columns: 2;
     column-width: auto;
     column-gap: 35px;
@@ -16,4 +91,4 @@ main {
     list-style-type: none;
     position: relative;
 
-}
+} */
