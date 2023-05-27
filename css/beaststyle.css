@@ -1,49 +1,91 @@
-html{
+html {
     background: grey;
 }
 
-/*Header style*/
-header{
-  background-color: maroon;
-  border: 2px solid #000000;
-  border-radius: 5px;
-  height: 150px;
-  text-align: center;
-  font-size: x-large;
+#creatures {
+    border-bottom: solid 2px #4169e1;
+    padding-bottom: 10%;
 }
 
-header h1{
+#creatures img {
+    float: left;
+    margin: 1% 4.5%;
+    height: 5%;
+    width: 7%;
+}
+
+#creatures li {
+    margin: 5% 0 0 5%;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#humanoid img {
+    float: left;
+    margin: 1% 4.5%;
+    height: 5%;
+    width: 7%;
+}
+
+#humanoid li {
+    margin: 10% 0 0 5%;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+/*Header style*/
+header {
+    background-color: #800000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    height: 150px;
+    text-align: center;
+    font-size: x-large;
+}
+
+header h1 {
     text-align: center;
     /* color: #ff0000; */
     text-emphasis: bold;
 }
 
 /*Main styles*/
-main p{
+main p {
     flex-wrap: wrap;
     padding: 0 8em 0 8em;
+}
+
+main h2 {
+    text-align: center;
+    color: #800000;
 }
 
 /*Nav menu*/
 
 #nav_menu ul {
     list-style-type: none;
-    /* padding: 1em 0; */
     text-align: center;
-    /* border: 2px solid black; */
     font-size: 150%;
     margin: 0 5% 0 5%;
+    width: 100%;
 
 }
 
 #nav_menu ul li {
-    display: inline;
+    display: inline-flex;
     padding: 0 1.5em;
+    width: 20%;
 
 }
 
 #nav_menu ul li a {
-    display: inline-block;
+    display: inline-flex;
     padding: .5em 0 .5em 1.5em;
     text-decoration: none;
 }
@@ -69,6 +111,21 @@ footer p {
 footer a {
     font-size: xx-large;
     margin-left: 3em;
+}
+
+
+
+@media only screen and (min-width: 550px) and (max-width: 796px) {
+    #creatures img {
+        width: 25%;
+        height: 100%;
+    }
+
+    #humanoid img {
+        width: 25%;
+        height: 100%;
+    }
+
 }
 
 
