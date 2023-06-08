@@ -4,7 +4,8 @@ html {
 
 #creatures {
     border-bottom: solid 2px #4169e1;
-    padding-bottom: 10%;
+    padding: 5% 0;
+    
 }
 
 #creatures img {
@@ -37,22 +38,9 @@ html {
 }
 
 
-
-
 /*Header style*/
 header {
     background-color: #800000;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    height: 150px;
-    text-align: center;
-    font-size: x-large;
-}
-
-header h1 {
-    text-align: center;
-    /* color: #ff0000; */
-    text-emphasis: bold;
 }
 
 /*Main styles*/
@@ -63,45 +51,11 @@ main p {
 
 main h2 {
     text-align: center;
+    font-size: 250%;
     color: #800000;
+    padding: 2.5% 0;
 }
 
-/*Nav menu*/
-
-#nav_menu ul {
-    list-style-type: none;
-    text-align: center;
-    font-size: 150%;
-    margin: 0 5% 0 5%;
-    width: 100%;
-
-}
-
-#nav_menu ul li {
-    display: inline-flex;
-    padding: 0 1.5em;
-    width: 20%;
-
-}
-
-#nav_menu ul li a {
-    display: inline-flex;
-    padding: .5em 0 .5em 1.5em;
-    text-decoration: none;
-}
-
-#nav_menu a:link {
-    color: royalblue;
-}
-
-#nav_menu a:visited {
-    color: purple;
-}
-
-#nav_menu a:hover,
-a:focus {
-    font-style: none;
-}
 
 /*styles for footer*/
 footer p {
@@ -127,25 +81,3 @@ footer a {
     }
 
 }
-
-
-
-/* This was a test for columns and I wasnt sure where to put comlumns in my main page */
-
-/* main {
-    columns: 2;
-    column-width: auto;
-    column-gap: 35px;
-    column-rule: 3px solid purple;
-    font-size: xx-large;
-    color: red;
-
-
-}
-
-#move ul {
-    display: flex;
-    list-style-type: none;
-    position: relative;
-
-} */

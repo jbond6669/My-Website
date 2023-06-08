@@ -37,23 +37,17 @@ div blockquote {
 }
 
 /*header styles*/
-header {
-    border: 2px solid #000000;
-    border-radius: 5px;
-    background-image: linear-gradient(45deg, blue 25%, gold 75%);
-    height: 150px;
-    text-align: center;
-    font-size: xx-large;
+header {    
+    background-image: linear-gradient(45deg, blue 25%, gold 75%);    
 }
-
+/* 
 header h1 {
     color: #f0f8ff;
     padding-top: .6em;
-}
+} */
 
 #vboy2 {
     float: right;
-
 }
 
 #vboy1 {
@@ -113,10 +107,10 @@ main h2 {
 
 }
 
-#top {
+/* #top {
     text-align: center;
     font-weight: bold;
-}
+} */
 
 /*styles for footer*/
 footer p {

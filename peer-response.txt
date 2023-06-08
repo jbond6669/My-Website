@@ -1,0 +1,9 @@
+1) Your header in the bestiary section is laid out nicely and if you kept that format through all the pages that would look amazing! That would require adding the box around everything and adding curved corners to all the headings.
+
+	Made a seperate CSS file for nav menu, header and footer to make them consistent on all pages. New file in css folder called nav-foot-head.css. I am happier with my site with this suggestion it not looks better with this one change!
+
+2) Website Optimization: It could be beneficial to review the CSS properties associated with the navigation menu to improve its positioning on different screen sizes. Ensuring the mobile-friendly design'll enhance accessibility for users viewing your website on various devices.
+
+	Made a few changes to nav menu to better fit different size screens. I am still testing and trying to make site better for smaller screens. 
+
+	I did see the screen shot that was posted and it showed the word Fallout dropping behind my nav menu. I try on my PC and shrink down the screen like that as much as possible but it does not do it like the screenshot. I am still trying to break it like that on my PC and will continue to optimize further. 

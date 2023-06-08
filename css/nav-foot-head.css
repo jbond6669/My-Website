@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*nav menu stuff*/
+
+#nav_menu ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 150%;
+    margin: 0 5% 0 5%;
+
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+
+}
+
+#nav_menu ul li a {
+    display: inline-block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+}
+
+#nav_menu a:link {
+    color: royalblue;
+}
+
+#nav_menu a:visited {
+    color: purple;
+}
+
+#nav_menu a:hover,
+a:focus {
+    font-style: none;
+}
+
+a:link {
+    color: #ffd700
+}
+
+a:visited {
+    color: #ff0000;
+}
+
+a:hover,
+a:focus {
+    font-style: italic;
+}
+
+/*header for all pages*/
+
+header {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    height: 150px;
+    text-align: center;
+    font-size: x-large;
+}
+
+header h1 {
+    text-align: center;
+    text-emphasis: bold;
+    padding-top: .6em;
+}
+
+/*footer for all pages*/
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    font-size: xx-large;
+    margin-left: 3em;
+}
+#top {
+    text-align: center;
+    font-weight: bold;
+    }
