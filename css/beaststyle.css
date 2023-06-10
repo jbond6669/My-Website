@@ -5,7 +5,7 @@ html {
 #creatures {
     border-bottom: solid 2px #4169e1;
     padding: 5% 0;
-    
+
 }
 
 #creatures img {
@@ -43,6 +43,14 @@ header {
     background-color: #800000;
 }
 
+#death2 {
+    float: right;
+}
+
+#death1 {
+    float: left;
+}
+
 /*Main styles*/
 main p {
     flex-wrap: wrap;
@@ -69,7 +77,7 @@ footer a {
 
 
 
-@media only screen and (min-width: 550px) and (max-width: 796px) {
+@media only screen and (min-width: 450px) and (max-width: 796px) {
     #creatures img {
         width: 25%;
         height: 100%;
@@ -80,4 +88,14 @@ footer a {
         height: 100%;
     }
 
+
+    header img {
+        width: 20%;
+        height: 60%;
+    }
+
+    header h1 {
+        font-size: 150%;
+    }
 }
+

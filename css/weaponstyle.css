@@ -1,0 +1,92 @@
+#nav_menu {
+    grid-area: head;
+}
+
+/*page specific header*/
+header {
+    background-color: rgba(255, 215, 0);
+    grid-area: head;
+}
+
+/*body styles*/
+body {
+    background-color: #808080;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+
+    font-size: 200%;
+    text-align: center;
+}
+
+/*grid layout*/
+
+head body main div {
+    display: grid;
+    height: 800px;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 60px;
+    gap: 1px;
+    width: 90%;
+    margin: 1px;
+
+}
+
+#gun {
+    width: 45%;
+    height: 150px;
+    float: left;
+    /* border-right: 2px solid black; */
+    text-align: center;
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    list-style: none;
+
+}
+
+#melee {
+    width: 45%;
+    height: 150px;
+    float: right;
+    text-align: center;
+    grid-row: 2 / 4;
+    grid-column: 2 / 3;
+    list-style: none;
+}
+
+#legend {
+    width: 100%;
+    height: 150px;
+    justify-self: center;
+    text-align: center;
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+    list-style: none;
+
+
+
+}
+
+footer {
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+}
+
+/*list styles*/
+ul li {
+    font-size: 125%;
+    padding-left: 5%;
+    color: #53163e;
+}
+
+p {
+    text-align: center;
+}
+
+/*id and class elements*/
+
+#legend {
+    color: rgba(255, 68, 0, 0.649);
+}

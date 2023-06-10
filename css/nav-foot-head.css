@@ -20,7 +20,7 @@
 }
 
 #nav_menu ul li a {
-    display: inline-block;
+    display: inline-flex;
     padding: .5em 0 .5em 1.5em;
     text-decoration: none;
 }
