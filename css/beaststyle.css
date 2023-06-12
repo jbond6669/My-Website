@@ -4,13 +4,13 @@ html {
 
 #creatures {
     border-bottom: solid 2px #4169e1;
-    padding: 5% 0;
+    padding-bottom: 10%;
 
 }
 
 #creatures img {
     float: left;
-    margin: 1% 4.5%;
+    margin: 1% 4%;
     height: 5%;
     width: 7%;
 }
@@ -20,18 +20,19 @@ html {
     list-style: none;
     font-size: large;
     font-weight: bold;
+    padding: 25px 0;
 
 }
 
 #humanoid img {
     float: left;
-    margin: 1% 4.5%;
+    margin: 1% 4%;
     height: 5%;
     width: 7%;
 }
 
 #humanoid li {
-    margin: 10% 0 0 5%;
+    margin: 5% 0 0 5%;
     list-style: none;
     font-size: large;
     font-weight: bold;
@@ -80,18 +81,18 @@ footer a {
 @media only screen and (min-width: 450px) and (max-width: 796px) {
     #creatures img {
         width: 25%;
-        height: 100%;
+        height: 50%;
     }
 
     #humanoid img {
         width: 25%;
-        height: 100%;
+        height: 50%;
     }
 
 
     header img {
         width: 20%;
-        height: 60%;
+        height: 50%;
     }
 
     header h1 {
