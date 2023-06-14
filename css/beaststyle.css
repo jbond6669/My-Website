@@ -67,13 +67,18 @@ main h2 {
 
 
 /*styles for footer*/
+footer {
+    padding-top: 100px;
+}
+
 footer p {
     text-align: center;
 }
 
 footer a {
+    text-align: center;
     font-size: xx-large;
-    margin-left: 3em;
+    padding-left: 30%;
 }
 
 
@@ -99,4 +104,3 @@ footer a {
         font-size: 150%;
     }
 }
-

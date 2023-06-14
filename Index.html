@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/nav-foot-head.css">
     <title>Fallout</title>
-    <link rel="icon" type="images/x-icon" href="/images/favicon.ico">
 </head>
 
 <body>
@@ -28,6 +27,12 @@
                 <li><a href="Weapons.html">Weapons</a></li>
             </ul>
         </nav>
+        <!--Music for main page-->
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/oxHcQ4EabaU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
 
         <div id="guide">
             <h1>A Guide to the Wastelands (25<sup>th</sup>Anniversary Edition)</h1><br>
@@ -74,9 +79,33 @@
                 want
                 to take everything by force, there is a faction for you. Visit the factions page to learn more about the
                 factions all over that can help you survive, or don't it's all up to you!</p><br>
-
         </div>
 
+        <!-- form -->
+        <p id="welcome">Hello vault dweller! Enter your information below to be loaded into your very own Pip Boy! And
+            remember you are SPECIAL!</p>
+        <br>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name here"><br><br>
+            <label for="special">You are SPECIAL!</label><br><br>
+            <label for="s">S (Strength)</label><br>
+            <input type="number" name="s" id="s" min="1" max="10"><br>
+            <label for="p">P (Perception)</label><br>
+            <input type="number" name="p" id="p" min="1" max="10"><br>
+            <label for="e">E (Endurance)</label><br>
+            <input type="number" name="e" id="e" min="1" max="10"><br>
+            <label for="c">C (Charisma)</label><br>
+            <input type="number" name="c" id="c" min="1" max="10"><br>
+            <label for="i">I (Intelligence)</label><br>
+            <input type="number" name="i" id="i" min="1" max="10"><br>
+            <label for="a">A (Agility)</label><br>
+            <input type="number" name="a" id="a" min="1" max="10"><br>
+            <label for="l">L (Luck)</label><br>
+            <input type="number" name="l" id="l" min="1" max="10"><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
     </main>
 </body>
 

@@ -10,7 +10,7 @@
 /*page specific header*/
 header {
     background-color: rgba(255, 215, 0);
-    
+
 }
 
 /*body styles*/
@@ -33,52 +33,52 @@ h2 {
     height: 100%;
     grid-template-columns: 400px 1fr 1fr;
     grid-template-rows: 80px 1fr 1fr 60px;
-    gap: 100px;
-    width: 90%;
-    margin: 10%;
+    gap: 1px 1px;
+    grid-template-areas:
+        "gun gun melee melee"
+        "gun gun melee melee"
+        "legend legend legend legend"
+        "foot foot foot foot";
 
 }
 
 #gun {
-    width: 45%;    
-    float: left;   
+    width: 75%;
+    float: left;
     text-align: center;
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
-   
+    grid-area: gun;
+
 
 }
-#gun ul li{
+
+#gun ul li {
     list-style-type: none;
 }
 
 #melee {
-    width: 45%;  
+    width: 75%;
     float: right;
     text-align: center;
-    grid-row: 2 / 3;
-    grid-column: 3 / 4;
-    }
+    grid-area: melee;
+}
 
-#melee ul li{
+#melee ul li {
     list-style-type: none;
 }
 
 #legend {
-    width: 100%;   
+    width: 100%;
     justify-self: center;
     text-align: center;
-    grid-row: 3 / 4;
-    grid-column: 1 / 4;    
+    grid-area: legend;
 }
 
-#legend ul li{
+#legend ul li {
     list-style-type: none;
 }
 
 footer {
-    grid-row: 4 / 5;
-    grid-column: 1 / 4;
+    grid-area: foot;
 }
 
 /*list styles*/
@@ -99,12 +99,34 @@ p {
     margin-right: 5%;
 }
 
-#legend p{
+#legend p {
     word-wrap: normal;
     margin-right: 20%;
 }
-#legend ul li{
-    
+
+#legend ul li {
+
     margin-right: 10%;
     justify-content: left;
+}
+
+
+/*media query*/
+@media only screen and (min-width: 480px) and (max-width: 796px) {
+    #legend img {
+        min-width: 20%;
+        min-height: 25%;
+
+    }
+
+    #gun img {
+        width: 20%;
+        height: 20%;
+    }
+
+    #melee img {
+        width: 20%;
+        height: 20%;
+    }
+
 }

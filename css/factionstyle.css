@@ -3,9 +3,15 @@
     margin: 0;
 }
 
+/*custom fonts*/
 @font-face {
     font-family: evilEmpire;
-	src: url(../font/EvilEmpire_4BBVK.ttf);
+    src: url(../font/EvilEmpire_4BBVK.ttf);
+}
+
+@font-face {
+    font-family: good;
+    src: url(../font/goodZombie.ttf);
 }
 
 html {
@@ -39,22 +45,20 @@ main {
 h2 {
     font-size: xx-large;
     /* font-weight: bold; */
-    
+
 }
 
-
+/*styles for id good*/
 #good {
     width: 40%;
     height: 350px;
     float: left;
-    border-right: 2px solid black;
     text-align: center;
     grid-row: 3 / 4;
     grid-column: 1 / 2;
     margin-right: 5%;
     padding-right: 8%;
     list-style: none;
-
 }
 
 #good li {
@@ -62,7 +66,16 @@ h2 {
     font-size: 150%;
 }
 
+#good h2 {
+    font-family: good;
+    color: #0619ed;
+}
 
+#good img {
+    height: 150px;
+}
+
+/*style for id evil*/
 #evil {
     width: 45%;
     height: 350px;
@@ -76,14 +89,38 @@ h2 {
 
 #evil h2 {
     font-family: evilEmpire;
+    color: #dc060683
 }
 
 #evil li {
     list-style: none;
+    font-size: 150%;
+}
+
+#evil img {
+    height: 200px;
 }
 
 /*footer*/
 footer {
     grid-row: 4 / 5;
     grid-column: 1 / 4;
+}
+
+/*media query*/
+@media only screen and (min-width: 480px) and (max-width: 796px) {
+
+    #good img {
+        min-width: 25%;
+        max-width: 100%;
+        min-height: 25%;
+        max-height: 100%;
+    }
+
+    #evil img {
+        min-width: 25%;
+        max-width: 100%;
+        min-height: 25%;
+        max-height: 100%;
+    }
 }

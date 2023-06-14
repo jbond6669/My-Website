@@ -4,13 +4,33 @@
     margin: 0;
 }
 
+/*custom font*/
+@font-face {
+    font-family: overseer;
+    src: url(../font/OverseerBold.ttf);
+}
+
+
+
 /*syles for elements*/
 body {
     background-color: #808080;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
+div blockquote {
+    text-align: center;
+    color: #0000ff;
+    font-size: 150%;
+}
+
+#guide {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+/*link colors*/
 a:link {
     color: #ffd700
 }
@@ -24,21 +44,16 @@ a:focus {
     font-style: italic;
 }
 
-div blockquote {
-    text-align: center;
-    color: #0000ff;
-}
 
-#guide {
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-    /* border-bottom: 4px solid #ffd700; */
-}
 
 /*header styles*/
-header {    
-    background-image: linear-gradient(45deg, blue 25%, gold 75%);    
+header {
+    background-image: linear-gradient(45deg, blue 25%, gold 75%);
+}
+
+header h1 {
+    font-family: overseer;
+    font-size: 300%;
 }
 
 #vboy2 {
@@ -74,13 +89,25 @@ footer a {
     margin-left: 3em;
 }
 
+/*Form*/
+form {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 150%;
+}
+
+
 /*media query*/
 @media only screen and (min-width: 480px) and (max-width: 796px) {
     header img {
         width: 30%;
         height: 80%;
     }
-    
+
     header h1 {
         font-size: 100%;
     }
